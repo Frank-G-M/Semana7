@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="info">
+        <div class="Nombre">
+            <p>Juan Perez</p>
+        </div>
+        <div class="Docum">
+            <p>1013006389</p>
+        </div>
+        <div class="Tel">
+            <p>3214567890</p>
+        </div>
+        <div class="Correo">
+            <p>correo@ejemplo.com</p>
+        </div>
+        <button>Logo out</button>
+    </div>
+   <div class="registro">
+    <button onclick="iniciarJornada()">Iniciar jornada</button>
+
+    <div id="panelActivo" class="barra">
+        <p id="fechaInicio"></p>
+        <p id="horaInicio"></p>
+        <button onclick="cerrarJornada()">Cerrar jornada</button>
+    </div>
+
+    <h3>Historial</h3>
+    <div class="tituloH">
+        <h4>Fecha</h4>
+        <h4>Hora de inicio</h4>
+        <h4>Hora de cierre</h4>
+    </div>
+    <ul id="historial"></ul>
+</div>
+</div>
+</body>
+<script src="funcion.js"></script>
+</html>
